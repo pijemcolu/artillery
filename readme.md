@@ -12,6 +12,12 @@ Run artillery:
 docker run -it pijemcolu/artillery:ubuntu
 ```
 
+If you wish to build containers directly:
+```
+docker build -t artillery -f Dockerfile.ubuntu .
+```
+
+
 Available tags:
 - `node` - node based container
 - `ubuntu` - ubuntu based container
