@@ -1,12 +1,11 @@
 # Artillery
 
 Artillery is a load testing application. More info & docs about 
-artillery can be found (directly on ther page)[https://artillery.io]
+artillery can be found [directly on artillery.io web](https://artillery.io)
 
 ## Docker containers
 
-This repository contains the artillery container image dockerfiles published (on dockerhub)[https://hub.docker.com/r/pijemcolu/artillery]
-
+This repository contains the artillery container image dockerfiles published [on dockerhub](https://hub.docker.com/r/pijemcolu/artillery)
 
 Run artillery:
 ```
