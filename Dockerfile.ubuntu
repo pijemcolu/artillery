@@ -1,0 +1,10 @@
+FROM ubuntu:20.04
+
+ARG DEBIAN_FRONTEND=noninteractive
+RUN apt-get update
+
+RUN apt-get install -y npm
+RUN npm install -g artillery; exit 0
+
+ENTRYPOINT [ "artillery" ]
+CMD [ "-h" ]
