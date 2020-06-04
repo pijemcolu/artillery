@@ -1,0 +1,7 @@
+FROM alpine:3.12.0
+
+RUN apk add --no-cache npm
+RUN npm install -g artillery --allow-root --unsafe-perm=true
+
+ENTRYPOINT [ "artillery" ]
+CMD [ "-h" ]
